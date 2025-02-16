@@ -5,7 +5,7 @@ import { Search } from 'lucide-react'
 
 const HomePage: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100 max-w-md mx-auto pb-20 relative">
+    <div className="max-w-[430px] mx-auto min-h-screen bg-white">
       {/* Header */}
       <div className="bg-white shadow-lg rounded-lg overflow-hidden mt-5">
         <div className="p-5 flex justify-between items-center border-b border-gray-200">
@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
           <img
             src="/banner.jpg"
             alt="Banner"
-            className="w-full overflow-hidden pb-5"
+            className="w-full overflow-hidden"
           ></img>
         </div>
         {/* Search Section */}
@@ -46,9 +46,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Navigation Bar */}
-      <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto  z-20">
-        <NavBar />
-      </div>
+      <NavBar />
     </div>
   )
 }

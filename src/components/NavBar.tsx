@@ -5,7 +5,7 @@ const NavBar: React.FC = () => {
   const location = useLocation()
 
   return (
-    <nav className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto bg-white shadow-lg border-t flex justify-around py-3 px-4 rounded-lg">
+    <nav className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto bg-white/70 shadow-lg backdrop-blur-md flex justify-around py-3 px-4 rounded-lg z-50">
       <NavItem to="/" icon={Home} active={location.pathname === '/'} />
       <NavItem to="/" icon={Search} active={location.pathname === '/search'} />
       <NavItem
