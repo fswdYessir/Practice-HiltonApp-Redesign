@@ -11,7 +11,7 @@ const HotelList: React.FC = () => {
       location: 'Marina Bay, Singapore',
       description: 'Luxurious stay experience',
       rating: 4.7,
-      image: 'https://picsum.photos/300/200?random=1',
+      image: '/room1.jpg',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const HotelList: React.FC = () => {
       location: 'New York, USA',
       description: 'Prime location for business travelers',
       rating: 4.6,
-      image: 'https://picsum.photos/300/200?random=2',
+      image: '/room2.jpg',
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const HotelList: React.FC = () => {
       location: 'Miami, USA',
       description: 'Relax with an oceanfront view',
       rating: 4.0,
-      image: 'https://picsum.photos/300/200?random=3',
+      image: '/room3.jpg',
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ const HotelList: React.FC = () => {
       location: 'Aspen, USA',
       description: 'Perfect getaway in the mountains',
       rating: 4.0,
-      image: 'https://picsum.photos/300/200?random=4',
+      image: '/room4.jpg',
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ const HotelList: React.FC = () => {
       location: 'Paris, France',
       description: 'Stay in luxury with city views',
       rating: 5.0,
-      image: 'https://picsum.photos/300/200?random=5',
+      image: '/room5.jpg',
     },
   ]
 

@@ -2,6 +2,10 @@ import Categories from '../components/Categories'
 import HotelList from '../components/HotelList'
 import NavBar from '../components/NavBar'
 import { Search } from 'lucide-react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import { Autoplay, Pagination } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const HomePage: React.FC = () => {
   return (
@@ -14,19 +18,44 @@ const HomePage: React.FC = () => {
             Book Now
           </button>
         </div>
-        <div>
-          <img
-            src="/banner.jpg"
-            alt="Banner"
-            className="w-full overflow-hidden"
-          ></img>
-        </div>
+
+        {/* banner */}
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          loop={true}
+          className="w-full h-[250px]"
+        >
+          <SwiperSlide>
+            <img
+              src="/banner1.jpg"
+              alt="Banner 1"
+              className="w-full h-full object-cover"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/banner2.jpg"
+              alt="Banner 2"
+              className="w-full h-full object-cover"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="/banner3.jpg"
+              alt="Banner 3"
+              className="w-full h-full object-cover"
+            />
+          </SwiperSlide>
+        </Swiper>
+
         {/* Search Section */}
         <div className="p-5">
           <h2 className="text-lg font-semibold mb-3 text-gray-900">
             Find Your Desired Vacation
           </h2>
-          <div className="flex items-centerbg-white border border-gray-300 p-3 py-1.5 rounded-lg shadow-sm">
+          <div className="flex items-center bg-white border border-gray-300 p-3 py-1.5 rounded-lg shadow-sm">
             <input
               type="text"
               placeholder="Search destinations"

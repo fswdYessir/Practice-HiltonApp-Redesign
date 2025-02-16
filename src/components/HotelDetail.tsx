@@ -1,4 +1,15 @@
-import { ArrowLeft, MoreVertical, Star, Tag } from 'lucide-react'
+import {
+  ArrowLeft,
+  MoreVertical,
+  Star,
+  Tag,
+  Wifi,
+  Dumbbell,
+  ParkingCircle,
+  Waves,
+  ShieldCheck,
+  ConciergeBell,
+} from 'lucide-react'
 import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 
@@ -12,14 +23,14 @@ const hotels = [
     reviews: 1700,
     description:
       'A luxurious stay experience in the heart of Singapore with world-class amenities. Nestled in the vibrant Marina Bay district, Hilton Grand Resort offers an unparalleled blend of elegance and comfort. Wake up to breathtaking city skyline views, and indulge in our award-winning hospitality that ensures a seamless and memorable stay. Our meticulously designed rooms and suites feature contemporary decor, plush bedding, and floor-to-ceiling windows that let in ample natural light. Whether you are traveling for business or leisure, our resort caters to your every need with state-of-the-art facilities, high-speed Wi-Fi, and a dedicated concierge service to assist with personalized recommendations. Beyond the luxurious accommodations, Hilton Grand Resort boasts a range of world-class amenities designed to elevate your stay. Enjoy a relaxing afternoon by our infinity pool overlooking the bay, or unwind at the spa with rejuvenating treatments crafted to refresh both body and mind. Savor exquisite international cuisine at our fine dining restaurants, or sip on handcrafted cocktails at the rooftop lounge while watching the sunset over the iconic Marina Bay Sands. With its prime location just minutes from top attractions like Gardens by the Bay and Orchard Road, this is more than just a hotel—it’s a gateway to the best experiences Singapore has to offer.',
-    price: '$180.00',
+
     images: [
       'https://picsum.photos/100/100?random=1',
       'https://picsum.photos/100/100?random=2',
       'https://picsum.photos/100/100?random=3',
       'https://picsum.photos/100/100?random=4',
     ],
-    coverImage: 'https://picsum.photos/600/400?random=1',
+    coverImage: '/room1.jpg',
   },
   {
     id: 2,
@@ -30,14 +41,14 @@ const hotels = [
     reviews: 1350,
     description:
       'Prime location for business travelers, minutes from Times Square and Central Park.',
-    price: '$250.00',
+
     images: [
       'https://picsum.photos/100/100?random=5',
       'https://picsum.photos/100/100?random=6',
       'https://picsum.photos/100/100?random=7',
       'https://picsum.photos/100/100?random=8',
     ],
-    coverImage: 'https://picsum.photos/600/400?random=2',
+    coverImage: '/room2.jpg',
   },
   {
     id: 3,
@@ -48,14 +59,14 @@ const hotels = [
     reviews: 980,
     description:
       'Relax with an oceanfront view and enjoy our private beach and infinity pool.',
-    price: '$300.00',
+
     images: [
       'https://picsum.photos/100/100?random=9',
       'https://picsum.photos/100/100?random=10',
       'https://picsum.photos/100/100?random=11',
       'https://picsum.photos/100/100?random=12',
     ],
-    coverImage: 'https://picsum.photos/600/400?random=3',
+    coverImage: '/room3.jpg',
   },
   {
     id: 4,
@@ -66,14 +77,14 @@ const hotels = [
     reviews: 780,
     description:
       'Perfect getaway in the mountains with ski-in/ski-out access and spa services.',
-    price: '$220.00',
+
     images: [
       'https://picsum.photos/100/100?random=13',
       'https://picsum.photos/100/100?random=14',
       'https://picsum.photos/100/100?random=15',
       'https://picsum.photos/100/100?random=16',
     ],
-    coverImage: 'https://picsum.photos/600/400?random=4',
+    coverImage: '/room4.jpg',
   },
   {
     id: 5,
@@ -84,14 +95,13 @@ const hotels = [
     reviews: 2000,
     description:
       'Stay in luxury with city views, minutes away from the Eiffel Tower and Louvre.',
-    price: '$500.00',
     images: [
       'https://picsum.photos/100/100?random=17',
       'https://picsum.photos/100/100?random=18',
       'https://picsum.photos/100/100?random=19',
       'https://picsum.photos/100/100?random=20',
     ],
-    coverImage: 'https://picsum.photos/600/400?random=5',
+    coverImage: '/room5.jpg',
   },
 ]
 
@@ -104,7 +114,7 @@ const HotelDetail: React.FC = () => {
 
   if (!hotel) {
     return (
-      <div className="text-center mt-10 text-gray-500 text-lg font-semibold">
+      <div className="text-center mt-30 text-gray-500 text-lg font-semibold">
         Hotel not found.
       </div>
     )
@@ -134,7 +144,7 @@ const HotelDetail: React.FC = () => {
 
         <div className="absolute w-full left-0 -mt-20 bg-white rounded-t-3xl p-6 pb-[100px] flex-grow">
           <h2 className="text-2xl font-bold text-gray-900">{hotel.name}</h2>
-          <div className="flex items-center text-gray-500 text-sm mt-1">
+          <div className="flex items-center text-gray-500 text-sm mt-3">
             <Tag size={16} className="mr-1 text-blue-500" />
             {hotel.distance} • {hotel.location}
           </div>
@@ -161,9 +171,41 @@ const HotelDetail: React.FC = () => {
             </button>
           </div>
 
+          <div className="mt-5 mb-8">
+            <h3 className="text-lg font-semibold text-gray-900 mb-5">
+              Amenities
+            </h3>
+            <div className="grid grid-cols-3 gap-5">
+              <div className="flex flex-col items-center">
+                <Waves size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">Swimming Pool</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <Wifi size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">Free Wi-Fi</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <ParkingCircle size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">Free Parking</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <ShieldCheck size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">24/7 Security</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <ConciergeBell size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">Concierge Service</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <Dumbbell size={24} className="text-hiltonblue/70" />
+                <p className="text-xs text-gray-500 mt-2">Fitness Center</p>
+              </div>
+            </div>
+          </div>
+
           <div className="mt-5">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              House Details
+              Room Details
             </h3>
             <div className="flex space-x-3 overflow-x-auto scrollbar-hide">
               {hotel.images.map((img, index) => (
@@ -182,9 +224,8 @@ const HotelDetail: React.FC = () => {
           </div>
         </div>
 
-        <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto bg-white/70 backdrop-blur-md p-5 flex justify-between items-center">
-          <span className="text-gray-900 font-bold text-xl">{hotel.price}</span>
-          <button className="bg-hiltonblue hover:bg-white hover:text-hiltonblue text-white px-6 py-3 rounded-lg text-sm font-medium transition">
+        <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto bg-white/70 backdrop-blur-md p-5 flex justify-end">
+          <button className="bg-hiltonblue hover:bg-white hover:text-hiltonblue text-white px-6 py-3 rounded-lg text-sm font-medium transition ">
             Book Now
           </button>
         </div>
