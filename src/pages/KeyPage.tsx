@@ -7,7 +7,7 @@ const KeyPage: React.FC = () => {
   const [hovered, setHovered] = useState(false)
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center bg-gradient-to-b from-hiltonblue to-indigo-900 text-white">
+    <div className="relative min-h-screen flex flex-col items-center bg-gradient-to-b from-hiltonBlue to-indigo-800 text-white">
       <img src="/logoWhite.png" alt="logo" className="mt-28 w-[180px]" />
 
       <p className="absolute top-6 left-14 font-semibold">Digital Key</p>
@@ -33,7 +33,7 @@ const KeyPage: React.FC = () => {
           >
             <LockKeyhole
               size={hovered ? 85 : 70}
-              className="text-hiltonblue transition-all duration-300"
+              className="text-hiltonBlue transition-all duration-300"
             />
           </div>
         </div>

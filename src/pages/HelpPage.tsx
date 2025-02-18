@@ -12,7 +12,7 @@ const HelpPage: React.FC = () => {
   return (
     <div className="max-w-[430px] mx-auto min-h-screen bg-gray-100">
       <div className="pt-12 pb-24 px-6">
-        <h2 className="text-3xl  text-hiltonblue font-bold mb-2 text-center mt-10">
+        <h2 className="text-3xl  text-hiltonBlue font-bold mb-2 text-center mt-10">
           How can we help?
         </h2>
         <p className="mt-2 text-sm text-gray-600 text-center">
@@ -35,11 +35,11 @@ const HelpPage: React.FC = () => {
           </p>
 
           <div className="mt-4 flex flex-col space-y-3 items-center">
-            <button className="w-3/4 flex items-center justify-center space-x-2 bg-hiltonblue text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition">
+            <button className="w-3/4 flex items-center justify-center space-x-2 bg-hiltonBlue text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition">
               <Headset size={20} />
               <span>Call Us</span>
             </button>
-            <button className="w-3/4 flex items-center justify-center space-x-2 bg-white border border-hiltonblue text-hiltonblue py-3 rounded-lg font-medium hover:bg-gray-100 transition">
+            <button className="w-3/4 flex items-center justify-center space-x-2 bg-white border border-hiltonBlue text-hiltonBlue py-3 rounded-lg font-medium hover:bg-gray-100 transition">
               <MessageCircle size={20} />
               <span>Chat with Us</span>
             </button>
@@ -60,7 +60,7 @@ const HelpCategory: React.FC<{ icon: React.ElementType; title: string }> = ({
 }) => {
   return (
     <button className="flex flex-col items-center justify-center p-4 bg-white shadow-md rounded-lg hover:bg-gray-200 transition">
-      <Icon size={28} className="text-hiltonblue" />
+      <Icon size={28} className="text-hiltonBlue" />
       <span className="mt-2 text-gray-800 font-medium">{title}</span>
     </button>
   )

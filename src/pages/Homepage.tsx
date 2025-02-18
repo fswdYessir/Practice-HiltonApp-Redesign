@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
       <div className="min-h-screen pb-16 flex flex-col  overflow-hidden">
         <div className="p-5 flex justify-between items-center border-b border-gray-200">
           <img src="/logo.png" alt="Hilton Logo" className="h-12" />
-          <button className="bg-hiltonblue hover:bg-white hover:text-hiltonblue text-white px-5 py-2 rounded-lg text-sm font-medium transition font-hilton">
+          <button className="bg-hiltonBlue hover:bg-white hover:text-hiltonBlue text-white px-5 py-2 rounded-lg text-sm font-medium transition font-hilton">
             Book Now
           </button>
         </div>
@@ -55,16 +55,29 @@ const HomePage: React.FC = () => {
           <h2 className="text-lg font-semibold mb-3 text-gray-900">
             Find Your Desired Vacation
           </h2>
-          <div className="flex items-center bg-white border border-gray-300 p-3 py-1.5 rounded-lg shadow-sm">
+          <div className="flex rounded-md border border-grey-900 overflow-hidden max-w-md mx-auto">
+            <input
+              type="text"
+              placeholder="Search destinations"
+              className="w-full bg-white text-gray-900 text-sm px-4 py-3"
+            />
+            <button
+              type="button"
+              className="flex items-center justify-center bg-hiltonBlue px-3 text-white hover:bg-white hover:text-hiltonBlue"
+            >
+              <Search size={20} />
+            </button>
+          </div>
+          {/* <div className="flex items-center bg-white border border-gray-300 p-3 py-1.5 rounded-lg shadow-sm">
             <input
               type="text"
               placeholder="Search destinations"
               className="w-full bg-transparent outline-none text-gray-700 px-5"
             />
-            <button className="p-2 bg-hiltonblue text-white rounded-2xl hover:bg-white hover:text-hiltonblue">
+            <button className="p-2 bg-hiltonBlue text-white rounded-2xl hover:bg-white hover:text-hiltonBlue">
               <Search size={20} />
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Categories Component */}

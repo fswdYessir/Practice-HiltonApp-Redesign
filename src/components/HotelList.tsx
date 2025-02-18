@@ -53,7 +53,7 @@ const HotelList: React.FC = () => {
         <h3 className="text-xl font-semibold text-gray-900">For You</h3>
         <a
           href="#"
-          className="text-hiltonblue font-hiltonSerif hover:text-blue-700 text-sm font-bold transition"
+          className="text-hiltonBlue font-hiltonSerif hover:text-blue-700 text-sm font-bold transition"
         >
           See all
         </a>

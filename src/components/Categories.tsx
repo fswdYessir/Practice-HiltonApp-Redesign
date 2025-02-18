@@ -22,7 +22,7 @@ const Categories: React.FC = () => {
             onClick={() => setSelected(name)}
             className={`flex flex-col items-center min-w-[90px] px-4 py-3 rounded-lg text-sm font-medium transition ${
               selected === name
-                ? 'bg-hiltonblue text-white'
+                ? 'bg-hiltonBlue text-white'
                 : 'bg-gray-200 text-gray-700'
             }`}
           >

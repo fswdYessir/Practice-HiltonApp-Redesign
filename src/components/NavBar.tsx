@@ -35,7 +35,7 @@ const NavItem: React.FC<{
     <Link
       to={to}
       className={`p-2 transition-all ${
-        active ? 'text-hiltonblue' : 'text-gray-500 hover:text-hiltonblue'
+        active ? 'text-hiltonBlue' : 'text-gray-500 hover:text-hiltonBlue'
       }`}
     >
       <Icon size={28} />

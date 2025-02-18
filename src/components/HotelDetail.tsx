@@ -142,7 +142,7 @@ const HotelDetail: React.FC = () => {
         <div className="absolute w-full left-0 -mt-20 bg-white rounded-t-3xl p-6 pb-[100px] flex-grow">
           <h2 className="text-2xl font-bold text-gray-900">{hotel.name}</h2>
           <div className="flex items-center text-gray-500 text-sm mt-3">
-            <Tag size={16} className="mr-1 text-hiltonblue" />
+            <Tag size={16} className="mr-1 text-hiltonBlue" />
             {hotel.distance} • {hotel.location}
           </div>
 
@@ -161,7 +161,7 @@ const HotelDetail: React.FC = () => {
               ? hotel.description
               : `${hotel.description.slice(0, 100)}...`}
             <button
-              className="text-hiltonblue ml-2 font-medium"
+              className="text-hiltonBlue ml-2 font-medium"
               onClick={() => setShowFullDesc(!showFullDesc)}
             >
               {showFullDesc ? 'Show Less' : 'See More'}
@@ -174,27 +174,27 @@ const HotelDetail: React.FC = () => {
             </h3>
             <div className="grid grid-cols-3 gap-5">
               <div className="flex flex-col items-center">
-                <Waves size={24} className="text-hiltonblue/80" />
+                <Waves size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">Swimming Pool</p>
               </div>
               <div className="flex flex-col items-center">
-                <Wifi size={24} className="text-hiltonblue/80" />
+                <Wifi size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">Free Wi-Fi</p>
               </div>
               <div className="flex flex-col items-center">
-                <ParkingCircle size={24} className="text-hiltonblue/80" />
+                <ParkingCircle size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">Free Parking</p>
               </div>
               <div className="flex flex-col items-center">
-                <ShieldCheck size={24} className="text-hiltonblue/80" />
+                <ShieldCheck size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">24/7 Security</p>
               </div>
               <div className="flex flex-col items-center">
-                <ConciergeBell size={24} className="text-hiltonblue/80" />
+                <ConciergeBell size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">Concierge Service</p>
               </div>
               <div className="flex flex-col items-center">
-                <Dumbbell size={24} className="text-hiltonblue/80" />
+                <Dumbbell size={24} className="text-hiltonBlue/80" />
                 <p className="text-xs text-gray-500 mt-1">Fitness Center</p>
               </div>
             </div>
@@ -222,7 +222,7 @@ const HotelDetail: React.FC = () => {
         </div>
 
         <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[430px] mx-auto bg-white/70 backdrop-blur-md p-5 flex justify-end">
-          <button className="bg-hiltonblue hover:bg-white hover:text-hiltonblue text-white px-6 py-3 rounded-lg text-sm font-medium transition ">
+          <button className="bg-hiltonBlue hover:bg-white hover:text-hiltonBlue text-white px-6 py-3 rounded-lg text-sm font-medium transition ">
             Book Now
           </button>
         </div>
