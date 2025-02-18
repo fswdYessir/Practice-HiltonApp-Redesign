@@ -12,10 +12,10 @@ const HelpPage: React.FC = () => {
   return (
     <div className="max-w-[430px] mx-auto min-h-screen bg-gray-100">
       <div className="pt-12 pb-24 px-6">
-        <h2 className="text-2xl font-bold text-hiltonblue text-center mt-10">
+        <h2 className="text-3xl  text-hiltonblue font-bold mb-2 text-center mt-10">
           How can we help?
         </h2>
-        <p className="mt-2 text-gray-600 text-center">
+        <p className="mt-2 text-sm text-gray-600 text-center">
           Find answers to your questions here.
         </p>
 
@@ -26,8 +26,8 @@ const HelpPage: React.FC = () => {
           <HelpCategory icon={XCircle} title="Cancel Booking" />
         </div>
 
-        <div className="mt-20 text-center">
-          <h3 className="text-lg font-semibold text-gray-900">
+        <div className="mt-24 text-center">
+          <h3 className="text-xl font-semibold text-gray-900">
             Need More Help?
           </h3>
           <p className="text-gray-600 text-sm">

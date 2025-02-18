@@ -7,7 +7,7 @@ const AccountPage: React.FC = () => {
         <h1 className="text-3xl  text-hiltonblue font-bold mb-2">
           Join with Us
         </h1>
-        <p className="text-sm  text-gray-600 text-center w-4/5">
+        <p className="text-sm text-gray-600 text-center w-3/5">
           Get our lowest rates, plus the chance to earn free nights, and more.
         </p>
 
