@@ -11,7 +11,6 @@ const HomePage: React.FC = () => {
   return (
     <div className="max-w-[430px] mx-auto min-h-screen bg-white">
       {/* Header */}
-      {/* <div className="bg-white shadow-lg rounded-lg overflow-hidden mt-5"> */}
       <div className="min-h-screen pb-16 flex flex-col  overflow-hidden">
         <div className="p-5 flex justify-between items-center border-b border-gray-200">
           <img src="/logo.png" alt="Hilton Logo" className="h-12" />
