@@ -40,8 +40,7 @@ const hotels = [
     rating: 4.6,
     reviews: 1350,
     description:
-      'Prime location for business travelers, minutes from Times Square and Central Park.',
-
+      "Prime location for business travelers, minutes from Times Square and Central Park. Experience world-class hospitality with modern rooms designed for comfort and convenience. The hotel features a state-of-the-art fitness center, rooftop bar with panoramic city views, and an executive lounge offering complimentary refreshments. Enjoy fine dining at our renowned international restaurant, or grab a quick coffee at the lobby café before exploring the city. Our concierge team is available 24/7 to assist with reservations, transportation, and recommendations for the best local attractions. Whether you're visiting for business or leisure, Hilton City Center offers a seamless and luxurious stay in the heart of New York.",
     images: [
       'https://picsum.photos/100/100?random=5',
       'https://picsum.photos/100/100?random=6',
@@ -58,8 +57,7 @@ const hotels = [
     rating: 4.0,
     reviews: 980,
     description:
-      'Relax with an oceanfront view and enjoy our private beach and infinity pool.',
-
+      'Relax with an oceanfront view and enjoy our private beach and infinity pool. This tropical paradise offers elegantly designed rooms with private balconies overlooking the sea. Guests can unwind with beachfront yoga sessions, take a dip in the infinity pool, or enjoy water activities such as jet skiing and paddleboarding. Savor fresh seafood and tropical cocktails at our open-air restaurant while listening to live music in the evening. Our full-service spa offers rejuvenating treatments, from deep-tissue massages to aromatherapy sessions. Located just minutes from Miami’s famous nightlife and shopping districts, Hilton Beachside is the perfect destination for both relaxation and adventure.',
     images: [
       'https://picsum.photos/100/100?random=9',
       'https://picsum.photos/100/100?random=10',
@@ -76,8 +74,7 @@ const hotels = [
     rating: 4.0,
     reviews: 780,
     description:
-      'Perfect getaway in the mountains with ski-in/ski-out access and spa services.',
-
+      "Perfect getaway in the mountains with ski-in/ski-out access and spa services. Surrounded by breathtaking alpine scenery, this retreat is ideal for nature lovers and adventure seekers. Our cozy, cabin-style suites feature fireplaces, heated floors, and stunning mountain views. Enjoy skiing, snowboarding, and guided snowshoeing tours in the winter, or hiking and mountain biking in the summer. The on-site restaurant serves locally sourced gourmet meals, and the outdoor fire pit is perfect for evening gatherings with hot cocoa. After a day of adventure, relax in our spa, which offers hot stone massages, saunas, and hydrotherapy treatments. Whether you're here for a romantic escape or a family vacation, Hilton Mountain Retreat provides an unforgettable experience.",
     images: [
       'https://picsum.photos/100/100?random=13',
       'https://picsum.photos/100/100?random=14',
@@ -94,7 +91,7 @@ const hotels = [
     rating: 5.0,
     reviews: 2000,
     description:
-      'Stay in luxury with city views, minutes away from the Eiffel Tower and Louvre.',
+      "Stay in luxury with city views, minutes away from the Eiffel Tower and Louvre. The hotel boasts opulent suites with custom furnishings, marble bathrooms, and private terraces offering breathtaking views of Paris. Indulge in gourmet dining at our Michelin-starred restaurant, where world-class chefs craft exquisite French cuisine. The rooftop lounge provides a perfect setting for evening cocktails while overlooking the illuminated cityscape. Pamper yourself at our full-service spa, featuring exclusive treatments and wellness therapies. Guests can also enjoy a private shopping experience with a personal stylist, or book a guided tour of the city's historic landmarks. Hilton Luxury Suites ensures a five-star stay in the heart of Paris, blending sophistication and comfort for an extraordinary experience.",
     images: [
       'https://picsum.photos/100/100?random=17',
       'https://picsum.photos/100/100?random=18',
