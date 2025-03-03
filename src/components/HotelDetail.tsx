@@ -126,17 +126,16 @@ const HotelDetail: React.FC = () => {
             alt={hotel.name}
             className="w-full h-full object-cover"
           />
-          <div className="absolute top-4 left-4 flex gap-2">
-            <button
-              className="p-2 rounded-full shadow-md"
-              onClick={() => navigate(-1)}
-            >
-              <ArrowLeft size={24} className="text-white" />
+          <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-black/50 to-transparent z-50 flex items-center px-4">
+            <div className="absolute top-4 left-4 flex gap-2">
+              <button className="p-2 rounded-full" onClick={() => navigate(-1)}>
+                <ArrowLeft size={24} className="text-white" />
+              </button>
+            </div>
+            <button className="p-2 absolute top-4 right-4 rounded-full">
+              <MoreVertical size={24} className="text-white" />
             </button>
           </div>
-          <button className="p-2 absolute top-4 right-4 rounded-full shadow-md">
-            <MoreVertical size={24} className="text-white" />
-          </button>
         </div>
 
         <div className="absolute w-full left-0 -mt-20 bg-white rounded-t-3xl p-6 pb-[100px] flex-grow">

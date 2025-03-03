@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        hiltonBlue: '#003153',
-        // hiltonBlue: '#0057B8',
+        hiltonBlue: '#002f61',
       },
       fontFamily: {
         hilton: ['Canaro', 'sans-serif'],

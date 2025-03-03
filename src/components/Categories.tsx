@@ -20,7 +20,7 @@ const Categories: React.FC = () => {
           <button
             key={name}
             onClick={() => setSelected(name)}
-            className={`flex flex-col items-center min-w-[90px] px-4 py-3 rounded-lg text-sm font-medium transition ${
+            className={`flex flex-col items-center min-w-[90px] px-4 py-3 rounded-xl text-sm font-medium transition ${
               selected === name
                 ? 'bg-hiltonBlue text-white'
                 : 'bg-gray-200 text-gray-700'

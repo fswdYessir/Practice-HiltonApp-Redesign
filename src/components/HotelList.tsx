@@ -51,12 +51,9 @@ const HotelList: React.FC = () => {
     <div className="p-5">
       <div className="flex justify-between items-center mb-1">
         <h3 className="text-xl font-semibold text-gray-900">For You</h3>
-        <a
-          href="#"
-          className="text-hiltonBlue font-hiltonSerif hover:text-blue-700 text-sm font-bold transition"
-        >
+        <p className="text-hiltonBlue hover:text-gray-400 text-sm  transition">
           See all
-        </a>
+        </p>
       </div>
       <div>
         <h3 className="text-gray-500 text-sm transition mb-8">
@@ -69,10 +66,10 @@ const HotelList: React.FC = () => {
           <div
             key={hotel.id}
             onClick={() => navigate(`/hotel/${hotel.id}`)}
-            className="bg-white shadow-xl rounded-2xl min-w-[260px] overflow-hidden relative cursor-pointer transition-transform hover:scale-105"
+            className="bg-white border-b-2 border-gray-300/50 rounded-2xl min-w-[260px] overflow-hidden relative cursor-pointer transition-transform hover:scale-105"
           >
-            <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow-md z-10">
-              <Heart size={18} className="text-gray-600" />
+            <button className="absolute top-3 right-3 bg-white/60 p-1.5 rounded-full shadow-md z-10">
+              <Heart size={16} className="text-gray-500" />
             </button>
 
             <div className="relative w-full h-40 overflow-hidden rounded-t-2xl">
@@ -82,7 +79,6 @@ const HotelList: React.FC = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-
             <div className="p-4">
               <div className="flex items-center justify-between">
                 <h4 className="font-semibold text-gray-900 text-lg truncate">

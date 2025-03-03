@@ -8,14 +8,14 @@ const AccountPage: React.FC = () => {
           Join with Us
         </h1>
         <p className="text-sm text-gray-600 text-center w-3/5">
-          Get our lowest rates, plus the chance to earn free nights, and more.
+          Join us for exclusive savings, free stays, and more rewards.
         </p>
 
         <div className="mt-6 w-full flex flex-col items-center space-y-3">
-          <button className="w-3/5 px-5 py-2 bg-hiltonBlue text-white rounded-lg  text-lg shadow-md hover:bg-blue-900 transition-all">
+          <button className="w-3/5 px-5 py-2 bg-hiltonBlue text-white rounded-lg  text-lg hover:bg-blue-900 transition-all">
             Sign In
           </button>
-          <button className="w-3/5 px-5 py-2 bg-white border border-hiltonBlue text-hiltonBlue rounded-lg  text-lg shadow-md hover:bg-gray-200 transition-all">
+          <button className="w-3/5 px-5 py-2 bg-white border border-hiltonBlue/50 text-hiltonBlue rounded-lg  text-lg hover:bg-gray-200 transition-all">
             Sign Up
           </button>
         </div>
