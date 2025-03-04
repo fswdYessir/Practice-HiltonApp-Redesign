@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
         {/* <div className="fixed top-0 w-[430px] rounded-sm bg-white/70 p-5 flex justify-between items-center z-50"> */}
         <div className=" bg-white/70 p-5 flex justify-between items-center z-50">
           <img src="/logo.png" alt="Hilton Logo" className="h-12" />
-          <button className="bg-hiltonBlue hover:bg-hiltonBlue/50  text-white px-5 py-2 rounded-lg text-sm font-medium transition font-hilton">
+          <button className="bg-hiltonBlue hover:border-2 hover:border-hiltonBlue hover:bg-white hover:text-hiltonBlue text-white px-5 py-2 rounded-lg text-sm font-medium transition font-hilton">
             Book Now
           </button>
         </div>
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
             <input
               type="text"
               placeholder="Search destinations"
-              className="w-full bg-white text-gray-900 text-sm px-4 py-3"
+              className="w-full rounded-s-xl bg-white border text-gray-900 text-sm px-4 py-3"
             />
             <button
               type="button"

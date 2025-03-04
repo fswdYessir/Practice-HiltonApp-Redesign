@@ -39,7 +39,7 @@ const HelpPage: React.FC = () => {
               <Headset size={20} />
               <span>Call Us</span>
             </button>
-            <button className="w-3/4 flex items-center justify-center space-x-2 bg-white border border-hiltonBlue/50 text-hiltonBlue py-3 rounded-lg font-medium hover:bg-gray-100 transition">
+            <button className="w-3/4 flex items-center justify-center space-x-2 bg-white border-2 border-hiltonBlue/50 text-hiltonBlue py-3 rounded-lg font-medium hover:bg-gray-100 transition">
               <MessageCircle size={20} />
               <span>Chat with Us</span>
             </button>
@@ -59,7 +59,7 @@ const HelpCategory: React.FC<{ icon: React.ElementType; title: string }> = ({
   title,
 }) => {
   return (
-    <button className="flex flex-col items-center justify-center p-4 bg-white border border-hiltonBlue/50 rounded-lg hover:bg-gray-200 transition">
+    <button className="flex flex-col items-center justify-center p-4 bg-white border-hiltonBlue/50 border-2 rounded-lg hover:bg-gray-200 transition">
       <Icon size={28} className="text-hiltonBlue" />
       <span className="mt-2 text-gray-800 font-medium">{title}</span>
     </button>

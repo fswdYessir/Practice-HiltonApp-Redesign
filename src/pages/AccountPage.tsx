@@ -15,7 +15,7 @@ const AccountPage: React.FC = () => {
           <button className="w-3/5 px-5 py-2 bg-hiltonBlue text-white rounded-lg  text-lg hover:bg-blue-900 transition-all">
             Sign In
           </button>
-          <button className="w-3/5 px-5 py-2 bg-white border border-hiltonBlue/50 text-hiltonBlue rounded-lg  text-lg hover:bg-gray-200 transition-all">
+          <button className="w-3/5 px-5 py-2 bg-white border-2 border-hiltonBlue/50 text-hiltonBlue rounded-lg  text-lg hover:bg-gray-200 transition-all">
             Sign Up
           </button>
         </div>

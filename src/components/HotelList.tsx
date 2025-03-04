@@ -51,7 +51,7 @@ const HotelList: React.FC = () => {
     <div className="p-5">
       <div className="flex justify-between items-center mb-1">
         <h3 className="text-xl font-semibold text-gray-900">For You</h3>
-        <p className="text-hiltonBlue hover:text-gray-400 text-sm  transition">
+        <p className="text-hiltonBlue font-bold cursor-pointer hover:text-gray-400 text-sm  transition">
           See all
         </p>
       </div>
@@ -66,7 +66,7 @@ const HotelList: React.FC = () => {
           <div
             key={hotel.id}
             onClick={() => navigate(`/hotel/${hotel.id}`)}
-            className="bg-white border-b-2 border-gray-300/50 rounded-2xl min-w-[260px] overflow-hidden relative cursor-pointer transition-transform hover:scale-105"
+            className="bg-white border-2 border-gray-300/50 rounded-2xl min-w-[260px] overflow-hidden relative cursor-pointer transition-transform hover:scale-105"
           >
             <button className="absolute top-3 right-3 bg-white/60 p-1.5 rounded-full shadow-md z-10">
               <Heart size={16} className="text-gray-500" />
