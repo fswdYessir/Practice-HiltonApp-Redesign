@@ -25,7 +25,7 @@ Built with **React**, **Vite**, and **Tailwind CSS**, this redesign emphasizes i
 
 ## 📸 Screenshots
 
-![Hilton App Screenshot 1](https://www.fswdyessir.com/postImg/hilton/new.png)
+![Hilton App Screenshot 1](https://www.fswdyessir.com/assets/Hilton-MhVmeit6.png))
 
 > Redesigned Hilton Honors booking interface with improved navigation and a modern UI.
 
