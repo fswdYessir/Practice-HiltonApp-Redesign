@@ -1,14 +1,14 @@
-🏨 Hilton Honors App Redesign
+## 🏨 Hilton Honors App Redesign
 A solo UI/UX-focused front-end project aimed at improving the Hilton Honors booking experience.
 Built with React, Vite, and Tailwind CSS, this redesign emphasizes intuitive layouts, streamlined user flow, and modern design practices.
 
-🚀 Live Demo
+### 🚀 Live Demo
 [Live Site](https://mdia-2025-project3.vercel.app/)
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 React, TypeScript, Vite, Tailwind CSS
 
-🎯 Features
+### 🎯 Features
 Redesigned the app structure with a cleaner, more intuitive layout.
 
 Improved user flow for browsing rooms and completing bookings.
@@ -21,12 +21,12 @@ Developed with component-based architecture in React for scalability.
 
 Ensured full responsiveness across mobile, tablet, and desktop devices.
 
-📸 Screenshots
+### 📸 Screenshots
 ![Hilton App Screenshot 1](https://www.fswdyessir.com/postImg/hilton/new.png)
 
 
 
-📚 Development Highlights
+### 📚 Development Highlights
 Conducted UX analysis of the existing Hilton website and Hilton Honors mobile app.
 
 Identified pain points and inconsistencies to inform the redesign strategy.
