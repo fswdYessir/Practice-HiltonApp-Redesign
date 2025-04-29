@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+🏨 Hilton Honors App Redesign
+A solo UI/UX-focused front-end project aimed at improving the Hilton Honors booking experience.
+Built with React, Vite, and Tailwind CSS, this redesign emphasizes intuitive layouts, streamlined user flow, and modern design practices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+[Live Site](https://mdia-2025-project3.vercel.app/)
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+React, TypeScript, Vite, Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Features
+Redesigned the app structure with a cleaner, more intuitive layout.
 
-## Expanding the ESLint configuration
+Improved user flow for browsing rooms and completing bookings.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Created a simplified digital key experience to support 24/7 check-in/check-out.
 
-- Configure the top-level `parserOptions` property like this:
+Applied modern design principles using Tailwind CSS.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Developed with component-based architecture in React for scalability.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Ensured full responsiveness across mobile, tablet, and desktop devices.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+📸 Screenshots
+![Hilton App Screenshot 1](https://www.fswdyessir.com/postImg/hilton/new.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+
+📚 Development Highlights
+Conducted UX analysis of the existing Hilton website and Hilton Honors mobile app.
+
+Identified pain points and inconsistencies to inform the redesign strategy.
+
+Designed a modern, user-friendly interface aligned with current UX/UI trends.
+
+Built the front-end solely using React and Tailwind CSS, ensuring modularity and maintainability.
