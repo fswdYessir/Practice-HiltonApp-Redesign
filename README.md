@@ -1,36 +1,41 @@
-## 🏨 Hilton Honors App Redesign
-A solo UI/UX-focused front-end project aimed at improving the Hilton Honors booking experience.
-Built with React, Vite, and Tailwind CSS, this redesign emphasizes intuitive layouts, streamlined user flow, and modern design practices.
+# 🏨 Hilton Honors App Redesign
 
-### 🚀 Live Demo
-[Live Site](https://mdia-2025-project3.vercel.app/)
+A solo **UI/UX-focused front-end project** aimed at improving the Hilton Honors booking experience.  
+Built with **React**, **Vite**, and **Tailwind CSS**, this redesign emphasizes intuitive layouts, streamlined user flow, and modern design practices.
 
-### 🛠️ Tech Stack
-React, TypeScript, Vite, Tailwind CSS
+## 🚀 Live Demo
 
-### 🎯 Features
-Redesigned the app structure with a cleaner, more intuitive layout.
+- [Live Site](https://mdia-2025-project3.vercel.app/)
 
-Improved user flow for browsing rooms and completing bookings.
+## 🛠️ Tech Stack
 
-Created a simplified digital key experience to support 24/7 check-in/check-out.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-Applied modern design principles using Tailwind CSS.
+## 🎯 Features
 
-Developed with component-based architecture in React for scalability.
+- Redesigned the app structure with a **cleaner, more intuitive layout**.
+- Improved **user flow** for browsing rooms and completing bookings.
+- Created a **simplified digital key experience** to support 24/7 check-in/check-out.
+- Applied **modern design principles** using Tailwind CSS.
+- Developed with **component-based architecture** in React for scalability.
+- Ensured **full responsiveness** across mobile, tablet, and desktop devices.
 
-Ensured full responsiveness across mobile, tablet, and desktop devices.
+## 📸 Screenshots
 
-### 📸 Screenshots
 ![Hilton App Screenshot 1](https://www.fswdyessir.com/postImg/hilton/new.png)
 
+> Redesigned Hilton Honors booking interface with improved navigation and a modern UI.
 
+## 📚 Development Highlights
 
-### 📚 Development Highlights
-Conducted UX analysis of the existing Hilton website and Hilton Honors mobile app.
+- Conducted UX analysis of the existing Hilton website and Hilton Honors mobile app.
+- Identified UX pain points and design inconsistencies to inform the redesign strategy.
+- Designed a **modern, user-friendly interface** aligned with current UI/UX trends.
+- Built the front-end solely using **React** and **Tailwind CSS** for modularity and maintainability.
 
-Identified pain points and inconsistencies to inform the redesign strategy.
+## 📄 License
 
-Designed a modern, user-friendly interface aligned with current UX/UI trends.
-
-Built the front-end solely using React and Tailwind CSS, ensuring modularity and maintainability.
+This project is for educational and portfolio purposes.
